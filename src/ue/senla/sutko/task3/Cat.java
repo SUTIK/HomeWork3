@@ -21,10 +21,12 @@ public class Cat {
     String CatName = "Barsik";
     int CatAge = 1;
 
-       public Cat(String A,int B){
-       CatName=A;
-       CatAge =B;
+    public Cat(String A,int B){
+    CatName=A;
+    CatAge =B;
    }
+   public Cat(){}
+
 
 
 }

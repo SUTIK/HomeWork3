@@ -6,7 +6,7 @@ public class Main {
         int count=0;
         while (count<10){
 
-            Cat Cat1 = new Cat("BArsik",3);
+            Cat Cat1 = new Cat();
             System.out.println("Имя кота-"+Cat1.CatName +" Возраст-"+Cat1.CatAge);
             count++;
         }
@@ -14,7 +14,7 @@ public class Main {
         //вторая задача
         for (int i=0;i<10;i++){
 
-            Cat Cat2= new Cat("Murca",4);
+            Cat Cat2= new Cat();
             Cat2.setCatName("Murka");
             Cat2.setCatAge(2);
             System.out.println("Имя кота-"+Cat2.getCatName() +" Возраст-"+Cat2.getCatAge());
