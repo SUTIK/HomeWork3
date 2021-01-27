@@ -31,7 +31,8 @@ public class Main {
         //четвертая задача
         Cat array[] = new Cat[5] ;
         for (Cat d:array) {
-        Cat Cat4 = new Cat("Mur",12);
+            Cat Cat4 = new Cat("Mur",12);
+
         System.out.println("Имя кота-"+Cat4.getCatName() +" Возраст-"+Cat4.getCatAge());
         }
     }
